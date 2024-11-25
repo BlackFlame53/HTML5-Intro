@@ -1,0 +1,14 @@
+nav > ul > li {
+    display: inline-block;
+    margin-right:  10px;
+}
+a {
+    text-decoration: none;
+}
+footer{ 
+    margin-top: 10px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
