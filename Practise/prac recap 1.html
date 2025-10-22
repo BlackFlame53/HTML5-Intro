@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise</title>
+    <style>
+        .panda{
+            margin-top: 10px;
+        }
+        .drop {
+            display: block;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        /* If you  want seamless border */
+        table{
+            /* border-collapse: collapse; */
+        }
+    </style>
+</head>
+<body>
+    <label for="">
+        Search your Image here: <input type="text"><button>Search</button>
+    </label>
+    <br>
+    <img class="panda" src="https://m.media-amazon.com/images/M/MV5BZDU5MDNiMGItYjVmZi00NDUxLTg2OTktNGE0NzNlNzM4NzgyXkEyXkFqcGc@._V1_.jpg" alt="Kung Fu Panda" height="500px" width="400px">
+    <br>
+    <a class="panda" target="_blank" href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDauzC3LMqowYPTizS7NS1dIK1UoSMxLSQQAjpYJoQ&q=kung+fu+panda&rlz=1C1GCEB_enBD1136BD1136&oq=kung+&gs_lcrp=EgZjaHJvbWUqEggBEC4YQxjUAhixAxiABBiKBTISCAAQABhDGOMCGLEDGIAEGIoFMhIIARAuGEMY1AIYsQMYgAQYigUyEggCEC4YQxjUAhixAxiABBiKBTISCAMQLhhDGNQCGLEDGIAEGIoFMgwIBBAAGEMYgAQYigUyDwgFEAAYQxixAxiABBiKBTIMCAYQLhhDGIAEGIoFMg8IBxAuGEMY1AIYgAQYigUyEggIEC4YQxiDARixAxiABBiKBTIMCAkQABhDGIAEGIoF0gEIMzA5NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#vhid=y19BE3br3wAipM&vssid=_rsf4aKqVCPzBjuMPxLu54Ak_60">For More Click Here</a>
+    <form>
+        <h3>Feedback Form</h3>
+        <label for="Name"> 
+            Name:<input class="drop" type="text" name="" id="Name">
+       </label>
+       <br>
+       <label for="date">
+        Date: <input class="drop" type="date" name="" id="date">
+       </label>
+       <br>
+       <label for="">
+        Comment:<textarea class="drop" name="" id="" rows="5" cols="50"></textarea>
+       </label><br>
+       <label for="">How was your Experience: 
+        <select name="" id="">
+            <option value="">Good</option>
+            <option value="">Excellet</option>
+            <option value="">Average</option>
+            <option value="">Bad</option>
+            <option value="">Very Bad</option>
+        </select>
+       </label><br><br>
+       <input type="submit" value="Submit">
+    </form>
+    <table>
+        <h2>Table Tennis Tournament</h2>
+        
+        <thead>
+        <caption>Tournament Schedule and Results</caption>  
+        
+        </thead>
+        <tbody>
+        <tr>
+            <th>Round 1</th>
+            <th>Player A</th>
+            <th>Player B</th>
+        </tr>  
+        <tr>
+            <td>Match 1</td>
+            <td>John</td>
+            <td>Alice</td>
+        </tr>
+        <tr>
+            <td>Match 2</td>
+            <td>Mark</td>
+            <td>Sarah</td>
+        </tr>
+        
+        <tr>
+            <th>Round 2</th>
+            <th>Player C</th>
+            <th>Player D</th>
+        </tr>  
+        <tr>
+            <td>Match 3</td>
+            <td>TBD</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td>Match 4</td>
+            <td>TBD</td>
+            <td>TBD</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Final</th>
+                <th>Winner of Match 3</th>
+                <th>Winner of Match 4</th>
+            </tr>
+            <tr>
+                <td>Champion</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
